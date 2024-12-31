@@ -2,7 +2,7 @@
 # ↑の記述は任意だが公式チュートリアルで推奨
 # 指定されたバージョンの文法で Dockerfile が解釈される
 
-FROM golang:1.19
+FROM golang:1.23
 
 WORKDIR /app
 
