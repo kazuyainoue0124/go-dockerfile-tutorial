@@ -28,6 +28,6 @@ COPY --from=build-stage /docker-gs-ping-roach /docker-gs-ping-roach
 
 EXPOSE 8080
 
-# USER nonroot:nonroot
+USER nonroot:nonroot
 
 ENTRYPOINT [ "/docker-gs-ping-roach" ]
