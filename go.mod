@@ -2,7 +2,12 @@ module github.com/kazuyainoue0124/go-dockerfile-tutorial
 
 go 1.23.4
 
-require github.com/labstack/echo/v4 v4.13.3
+require (
+	github.com/cenkalti/backoff/v4 v4.3.0
+	github.com/cockroachdb/cockroach-go/v2 v2.3.8
+	github.com/labstack/echo/v4 v4.13.3
+	github.com/lib/pq v1.10.9
+)
 
 require (
 	github.com/labstack/gommon v0.4.2 // indirect
